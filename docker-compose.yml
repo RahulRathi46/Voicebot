@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  voicebot:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        NODE_ENV: ${NODE_ENV}
+    env_file:
+      - .env
+    ports:
+      - "80:3000"

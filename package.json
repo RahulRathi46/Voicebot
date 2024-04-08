@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.9.1",
+    "hono": "^4.2.2",
+    "openai": "^4.33.0",
+    "twilio": "^5.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
