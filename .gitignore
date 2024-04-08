@@ -1,6 +1,9 @@
 # Node modules
 node_modules
 
+# Vscode
+.vscode
+
 # Docker files
 .DS_Store
 .dockerignore
